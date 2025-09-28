@@ -1,0 +1,231 @@
+:root {
+--html-color: #E74C3C;
+--css-color: #0087CB;
+--js-color: #6CB62E;
+--isil-color: #00B7F1;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#linea1 {
+    color: black;
+    border: 1px solid black; 
+}
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#desarrollo {
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: var(--isil-color);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px 1px grey;
+    text-shadow: 1px 2px 4px  rgb(136, 134, 134);
+}
+.container{
+    background-image: url("img/fondo.jpg");
+    border: 2px solid rgb(128, 125, 125);
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    padding: 30px
+}
+
+#isil {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+
+
+
+h2{
+text-decoration:underline;
+font-style: italic;
+}
+
+#def {
+    border: 3px solid rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px; 
+
+}
+
+#casa{
+    width: 500px;
+    align-items: center;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 20px 20px 0px rgb(88, 87, 87);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#contenido2 {
+    border: 2px solid rgb(77, 76, 76);
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+#linea2 {
+    color: black;
+    border: 1px solid black; }
+
+.bottom {
+    border: 2px solid rgb(73, 73, 73);
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0px 5px 5px 0px rgb(87, 86, 86);
+}
+#final{
+    color: rgb(73, 72, 72);
+}
+
+#html1 {
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+.mid {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#def1 {
+    border: 2px solid rgb(95, 94, 94);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 245, 242);
+    height: 500px; 
+}
+
+#def2{ border: 2px solid rgb(95, 94, 94);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(236, 245, 252);
+    height: 500px; }
+
+#def3{ border: 2px solid rgb(95, 94, 94);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(239, 253, 237);
+    height: 500px; }
+
+#html2 {
+    border: 8px solid var(--html-color);
+    background-color: var(--html-color);
+    color: rgb(255, 255, 255);
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+#css2 {
+    border: 8px solid var(--css-color);
+    background-color: var(--css-color);
+    color: white;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+
+#js2 {
+    border: 8px solid var(--js-color);
+    background-color: var(--js-color);
+    color: white;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+
+}
+
+p{
+    text-align: start;
+    color:rgb(68, 68, 68);
+    font-size: 19px;
+}
+
+#html3 {
+    border: 8px solid var(--html-color);
+    background-color: var(--html-color);
+    color: rgb(255, 255, 255);
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+    padding: 5px;
+}
+
+#css3 {
+    border: 8px solid var(--css-color);
+    background-color: var(--css-color);
+    color: white;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+    padding: 5px;
+}
+#js3 {
+    border: 8px solid var(--js-color);
+    background-color: var(--js-color);
+    color: white;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    text-align: center;
+    padding: 5px;
+}
+
+#html4 {
+    border: 2px solid rgb(65, 64, 64);
+    background-color: rgb(250, 241, 241);
+    color: rgb(68, 68, 68);
+    padding: 10px;
+    height: 400px;
+    flex:1;
+}
+#css4 {
+    border: 2px solid rgb(65, 64, 64);
+    background-color: rgb(241, 248, 255);
+    color: rgb(68, 68, 68);
+    padding: 10px;
+    height: 400px;
+    flex:1;
+}
+#js4 {
+    border: 2px solid rgb(65, 64, 64);
+    background-color: rgb(243, 255, 244);
+    color: rgb(68, 68, 68);
+    padding: 10px;
+    height: 400px;
+    flex:1;
+}
+
