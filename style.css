@@ -28,13 +28,13 @@ body{
     text-shadow: 1px 2px 4px  rgb(136, 134, 134);
 }
 .container{
-    background-image: url("img/fondo.jpg");
-    border: 2px solid rgb(128, 125, 125);
-    margin-top: 10px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 100px;
-    padding: 30px
+   background-image: url("img/fondo.jpg");
+  border: 2px solid rgb(128, 125, 125);
+  margin: 20px auto;      
+  padding: 30px;
+  max-width: 900px;      
+  width: 90%;            
+  box-sizing: border-box;
 }
 
 #isil {
@@ -228,4 +228,5 @@ p{
     height: 400px;
     flex:1;
 }
+
 
