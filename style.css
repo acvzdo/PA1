@@ -229,4 +229,12 @@ p{
     flex:1;
 }
 
+#hechopor {
+    text-align: right;
+    font-size: 19px;
+    background-color: whitesmoke;
+    margin-left: 75%;
+    color: black;
+}
+
 
